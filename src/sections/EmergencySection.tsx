@@ -62,13 +62,13 @@ export default function EmergencySection() {
               {t('emergency.subtitle')}
             </p>
 
-            <a href="tel:8090000000" className="emergency__phone">
+            <a href="tel:8095270163" className="emergency__phone">
               <span className="emergency__phone-icon">📞</span>
-              Agenda tu cita
+              809-527-0163
             </a>
 
             <motion.a
-              href="tel:8090000000"
+              href="tel:8095270163"
               className="emergency__cta"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
@@ -77,7 +77,7 @@ export default function EmergencySection() {
             </motion.a>
 
             <a
-              href="https://wa.me/message/HL77R3SXVOVRK1"
+              href="https://wa.me/18095270163"
               target="_blank"
               rel="noopener noreferrer"
               className="emergency__whatsapp"

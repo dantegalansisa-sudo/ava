@@ -10,7 +10,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.book': 'Reservar Cita',
 
     // Hero
-    'hero.tagline': 'Boutique Dental en Naco',
+    'hero.tagline': 'Clínica Odontológica en Gazcue',
     'hero.title1': 'TU',
     'hero.title2': 'SONRISA',
     'hero.title3': 'PERFECTA',
@@ -89,8 +89,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     'booking.sent': '¡Enviado! Revisa WhatsApp',
 
     // Footer
-    'footer.tagline': 'Boutique Dental en Naco',
-    'footer.rights': '© 2026 Dr. Othón Boutique Dental. Todos los derechos reservados.',
+    'footer.tagline': 'Clínica Odonto | Estética en Gazcue',
+    'footer.rights': '© 2026 AVA Clínica Odonto | Estética. Todos los derechos reservados.',
     'footer.credit': 'Diseñado por',
     'footer.privacy': 'Política de Privacidad',
     'footer.legal': 'Aviso Legal',
@@ -112,7 +112,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.book': 'Book Appointment',
 
     // Hero
-    'hero.tagline': 'Dental Boutique in Naco',
+    'hero.tagline': 'Dental Clinic in Gazcue',
     'hero.title1': 'YOUR',
     'hero.title2': 'SMILE',
     'hero.title3': 'PERFECTED',
@@ -191,8 +191,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     'booking.sent': 'Sent! Check WhatsApp',
 
     // Footer
-    'footer.tagline': 'Dental Boutique in Naco',
-    'footer.rights': '© 2026 Dr. Othón Boutique Dental. All rights reserved.',
+    'footer.tagline': 'Dental Clinic | Aesthetics in Gazcue',
+    'footer.rights': '© 2026 AVA Clínica Odonto | Estética. All rights reserved.',
     'footer.credit': 'Designed by',
     'footer.privacy': 'Privacy Policy',
     'footer.legal': 'Legal Notice',

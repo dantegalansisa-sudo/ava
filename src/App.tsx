@@ -83,8 +83,11 @@ function Navbar() {
   return (
     <>
       <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
-        <a href="/" className="navbar__logo">
-          <img src="/imagenes/drothon/logo.png" alt="Dr. Othón Boutique Dental" className="navbar__logo-img" style={{ height: '50px', width: 'auto' }} />
+        <a href="/" className="navbar__logo" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <img src="/imagenes/ava/logo.png" alt="AVA Clínica Odonto | Estética" className="navbar__logo-img"
+               style={{ height: '50px', width: '50px', borderRadius: '50%', objectFit: 'cover' as const }} />
+          <span style={{ fontFamily: 'var(--font-brutal)', fontSize: '13px', letterSpacing: '0.08em',
+                         color: 'var(--primary)', textTransform: 'uppercase' as const, lineHeight: '1.2' }}>AVA CLÍNICA ODONTO</span>
         </a>
 
         <ul className="navbar__links">

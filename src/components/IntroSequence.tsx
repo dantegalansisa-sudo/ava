@@ -68,7 +68,7 @@ export default function IntroSequence({ onComplete }: IntroSequenceProps) {
             animate={isActive('text') ? { opacity: 1 } : { opacity: 0 }}
             transition={{ duration: 0.2 }}
           >
-            {'DR. OTHÓN'.split('').map((char, i) => (
+            {'AVA CLÍNICA'.split('').map((char, i) => (
               <motion.span
                 key={`main-${i}`}
                 initial={{ opacity: 0, y: 10 }}
@@ -83,7 +83,7 @@ export default function IntroSequence({ onComplete }: IntroSequenceProps) {
               </motion.span>
             ))}
             <div className="intro__subtext">
-              {'— Boutique Dental —'.split('').map((char, i) => (
+              {'— Odonto | Estética —'.split('').map((char, i) => (
                 <motion.span
                   key={`sub-${i}`}
                   initial={{ opacity: 0 }}

@@ -94,14 +94,14 @@ export default function BlogPage() {
                 <h3 className="bp__cta-title">¿Necesitas una consulta?</h3>
                 <p className="bp__cta-desc">Nuestro equipo está listo para ayudarte. Agenda tu cita hoy.</p>
                 <a
-                  href="https://wa.me/message/HL77R3SXVOVRK1"
+                  href="https://wa.me/18095270163"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bp__cta-btn"
                 >
                   Agendar por WhatsApp →
                 </a>
-                <a href="tel:+18090000000" className="bp__cta-phone">
+                <a href="tel:+18095270163" className="bp__cta-phone">
                   O escríbenos por WhatsApp
                 </a>
               </div>

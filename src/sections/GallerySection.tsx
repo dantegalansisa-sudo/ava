@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 import RevealText from '../components/RevealText';
 
 const galleryImages = [
-  { src: '/imagenes/drothon/instalacion-1.png', alt: 'Recepción', label: 'Recepción' },
-  { src: '/imagenes/drothon/instalacion-2.png', alt: 'Consultorio', label: 'Consultorio' },
-  { src: '/imagenes/drothon/instalacion-3.png', alt: 'Área de Trabajo', label: 'Área de Trabajo' },
-  { src: '/imagenes/drothon/instalacion-4.png', alt: 'Equipamiento', label: 'Equipamiento' },
-  { src: '/imagenes/drothon/instalacion-5.png', alt: 'Sala Clínica', label: 'Sala Clínica' },
-  { src: '/imagenes/drothon/instalacion-6.png', alt: 'Exterior', label: 'Exterior' },
+  { src: '/imagenes/ava/logo.png', alt: 'Foto pendiente', label: 'Recepción' },
+  { src: '/imagenes/ava/logo.png', alt: 'Foto pendiente', label: 'Consultorio' },
+  { src: '/imagenes/ava/logo.png', alt: 'Foto pendiente', label: 'Área de Trabajo' },
+  { src: '/imagenes/ava/logo.png', alt: 'Foto pendiente', label: 'Equipamiento' },
+  { src: '/imagenes/ava/logo.png', alt: 'Foto pendiente', label: 'Sala Clínica' },
+  { src: '/imagenes/ava/logo.png', alt: 'Foto pendiente', label: 'Exterior' },
 ];
 
 const containerVariants = {

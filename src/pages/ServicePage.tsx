@@ -94,14 +94,14 @@ export default function ServicePage() {
                 <h3 className="sp__cta-title">¿Te interesa este tratamiento?</h3>
                 <p className="sp__cta-desc">Agenda tu consulta de evaluación y recibe un plan personalizado.</p>
                 <a
-                  href="https://wa.me/message/HL77R3SXVOVRK1"
+                  href="https://wa.me/18095270163"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="sp__cta-btn"
                 >
                   Consultar por WhatsApp →
                 </a>
-                <a href="tel:+18090000000" className="sp__cta-phone">
+                <a href="tel:+18095270163" className="sp__cta-phone">
                   O escríbenos por WhatsApp
                 </a>
               </div>

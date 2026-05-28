@@ -29,32 +29,31 @@ export default function MapSection() {
           <div className="map-section__info">
             <div className="map-section__detail">
               <span className="map-section__detail-label">Dirección</span>
-              <span className="map-section__detail-value">Plaza Lia, Naco</span>
-              <span className="map-section__detail-value" style={{ color: 'rgba(255,255,255,0.4)' }}>Santo Domingo, República Dominicana</span>
+              <span className="map-section__detail-value">Dr. Báez No.13, Gazcue</span>
+              <span className="map-section__detail-value" style={{ color: 'rgba(255,255,255,0.4)' }}>Distrito Nacional, República Dominicana</span>
             </div>
             <div className="map-section__detail">
               <span className="map-section__detail-label">Horario</span>
-              <span className="map-section__detail-value">Lunes - Viernes: 9:00 AM - 6:00 PM</span>
-              <span className="map-section__detail-value">Sábados: 9:00 AM - 2:00 PM</span>
-              <span className="map-section__detail-value" style={{ color: 'rgba(255,255,255,0.4)' }}>Domingos: Cerrado</span>
+              <span className="map-section__detail-value">Lunes a Viernes 8am - 6pm</span>
+              <span className="map-section__detail-value" style={{ color: 'rgba(255,255,255,0.4)' }}>Sábados y Domingos: Cerrado</span>
             </div>
             <div className="map-section__detail">
               <span className="map-section__detail-label">Contacto</span>
-              <a href="https://instagram.com/drothon_boutiquedental" target="_blank" rel="noopener noreferrer" className="map-section__detail-value map-section__link">@drothon_boutiquedental</a>
-              <a href="https://wa.me/message/HL77R3SXVOVRK1" target="_blank" rel="noopener noreferrer" className="map-section__detail-value map-section__link">WhatsApp Directo</a>
+              <a href="https://instagram.com/avaodontoestetica" target="_blank" rel="noopener noreferrer" className="map-section__detail-value map-section__link">@avaodontoestetica</a>
+              <a href="https://wa.me/18095270163" target="_blank" rel="noopener noreferrer" className="map-section__detail-value map-section__link">WhatsApp Directo</a>
             </div>
           </div>
 
           <div className="map-section__embed">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.5!2d-69.95!3d18.47!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDI4JzEyLjAiTiA2OcKwNTcnMDAuMCJX!5e0!3m2!1ses!2sdo!4v1709000000000!5m2!1ses!2sdo"
+              src="https://www.google.com/maps?q=Dr.+Báez+No.13+Gazcue+Santo+Domingo&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, borderRadius: '16px' }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación Dr. Othón Boutique Dental"
+              title="Ubicación AVA Clínica Odonto | Estética"
             />
           </div>
         </motion.div>

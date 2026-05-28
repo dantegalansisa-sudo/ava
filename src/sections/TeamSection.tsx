@@ -3,22 +3,22 @@ import RevealText from '../components/RevealText';
 
 const doctors = [
   {
-    name: 'Dr. Rolando Álvarez',
-    specialty: 'Especialista en Periodoncia e Implantes Dentales',
-    bio: 'Experto en tratamientos periodontales e implantología dental avanzada.',
-    img: '/imagenes/drothon/dr-rolando.png',
+    name: 'Especialista Pendiente',
+    specialty: 'Especialidad Pendiente',
+    bio: 'Foto y datos del especialista pendientes de actualización.',
+    img: '/imagenes/ava/logo.png',
   },
   {
-    name: 'Dra. Paola S. Berlanger',
-    specialty: 'Odontóloga',
-    bio: 'Especialista en odontología general y atención integral al paciente.',
-    img: '/imagenes/drothon/dra-paola.png',
+    name: 'Especialista Pendiente',
+    specialty: 'Especialidad Pendiente',
+    bio: 'Foto y datos del especialista pendientes de actualización.',
+    img: '/imagenes/ava/logo.png',
   },
   {
-    name: 'Dra. Angie Capellán',
-    specialty: 'Especialista en Prótesis Dental',
-    bio: 'Experta en rehabilitación protésica y restauraciones dentales.',
-    img: '/imagenes/drothon/dra-angie.png',
+    name: 'Especialista Pendiente',
+    specialty: 'Especialidad Pendiente',
+    bio: 'Foto y datos del especialista pendientes de actualización.',
+    img: '/imagenes/ava/logo.png',
   },
 ];
 
@@ -67,7 +67,7 @@ export default function TeamSection() {
         >
           {doctors.map((doc) => (
             <motion.div key={doc.name} className="doctor-card" variants={cardVariants}>
-              <img src={doc.img} alt={doc.name} className="doctor-card__img" />
+              <img src={doc.img} alt={doc.name} className="doctor-card__img" style={{ borderRadius: '50%', objectFit: 'cover' as const }} />
               <div className="doctor-card__info">
                 <span className="doctor-card__name">{doc.name}</span>
                 <span className="doctor-card__specialty">{doc.specialty}</span>

@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 import RevealText from '../components/RevealText';
 
 const patientImages = [
-  { src: '/imagenes/drothon/paciente-1.png', alt: 'Paciente feliz', label: 'Sonrisas Reales' },
-  { src: '/imagenes/drothon/paciente-2.png', alt: 'Paciente satisfecho', label: 'Resultados' },
-  { src: '/imagenes/drothon/paciente-3.png', alt: 'Paciente contento', label: 'Confianza' },
-  { src: '/imagenes/drothon/paciente-4.png', alt: 'Tratamiento exitoso', label: 'Tratamientos' },
-  { src: '/imagenes/drothon/paciente-1.png', alt: 'Paciente sonriendo', label: 'Satisfacción' },
-  { src: '/imagenes/drothon/paciente-2.png', alt: 'Resultado dental', label: 'Excelencia' },
+  { src: '/imagenes/ava/logo.png', alt: 'Paciente — Foto pendiente', label: 'Sonrisas Reales' },
+  { src: '/imagenes/ava/logo.png', alt: 'Paciente — Foto pendiente', label: 'Resultados' },
+  { src: '/imagenes/ava/logo.png', alt: 'Paciente — Foto pendiente', label: 'Confianza' },
+  { src: '/imagenes/ava/logo.png', alt: 'Paciente — Foto pendiente', label: 'Tratamientos' },
+  { src: '/imagenes/ava/logo.png', alt: 'Paciente — Foto pendiente', label: 'Satisfacción' },
+  { src: '/imagenes/ava/logo.png', alt: 'Paciente — Foto pendiente', label: 'Excelencia' },
 ];
 
 const containerVariants = {
@@ -67,7 +67,7 @@ export default function PatientsSection() {
               variants={itemVariants}
               whileHover={{ y: -4, transition: { duration: 0.25 } }}
             >
-              <img src={img.src} alt={img.alt} className="gallery__img" loading="lazy" />
+              <img src={img.src} alt={img.alt} className="gallery__img" loading="lazy" style={{ borderRadius: '50%', objectFit: 'cover' as const }} />
               <div className="gallery__overlay">
                 <span className="gallery__label">{img.label}</span>
               </div>
