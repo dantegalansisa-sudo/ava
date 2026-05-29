@@ -16,7 +16,7 @@ export const articles: Article[] = [
     title: '¿Carillas o blanqueamiento? Guía para elegir el tratamiento ideal',
     excerpt: 'Ambos mejoran tu sonrisa, pero funcionan de forma diferente. Te explicamos cuál es la mejor opción según tu caso.',
     readTime: '4 min',
-    img: '/imagenes/blog-estetica.png',
+    img: '/imagenes/drothon/blog-estetica.png',
     content: [
       'Cuando se trata de mejorar la apariencia de tu sonrisa, dos de las opciones más populares son las carillas dentales y el blanqueamiento. Aunque ambos tratamientos buscan darte una sonrisa más brillante y atractiva, funcionan de maneras muy diferentes.',
       'El blanqueamiento dental es un procedimiento no invasivo que utiliza agentes químicos para aclarar el color natural de tus dientes. Es ideal para personas con dientes sanos que simplemente quieren eliminar manchas causadas por el café, el té, el vino o el tabaco. Los resultados pueden durar entre 6 meses y 2 años dependiendo de tus hábitos.',
@@ -38,7 +38,7 @@ export const articles: Article[] = [
     title: '5 mitos sobre los implantes dentales que debes dejar de creer',
     excerpt: 'Desde "duelen mucho" hasta "se notan falsos". Desmontamos los mitos más comunes con datos reales.',
     readTime: '5 min',
-    img: '/imagenes/blog-implantes.png',
+    img: '/imagenes/drothon/blog-implantes.png',
     content: [
       'Los implantes dentales son una de las soluciones más avanzadas y efectivas para reemplazar dientes perdidos. Sin embargo, existen muchos mitos que generan miedo o dudas innecesarias. Hoy desmontamos los 5 más comunes.',
       'Mito 1: "Los implantes duelen mucho." La realidad es que la colocación de un implante se realiza bajo anestesia local y el procedimiento en sí es menos doloroso de lo que la mayoría imagina. La mayoría de pacientes reportan menos molestias que con una extracción dental simple.',
@@ -61,7 +61,7 @@ export const articles: Article[] = [
     title: 'La rutina de higiene dental que recomiendan los especialistas',
     excerpt: 'Cepillado, hilo dental y enjuague no son suficientes. Descubre los pasos que realmente protegen tu sonrisa.',
     readTime: '3 min',
-    img: '/imagenes/blog-prevencion.png',
+    img: '/imagenes/drothon/blog-prevencion.png',
     content: [
       'Mantener una buena salud bucal va más allá del cepillado tres veces al día. Los especialistas recomiendan una rutina integral que muchas personas desconocen o pasan por alto.',
       'Paso 1: Cepillado correcto. No se trata solo de cepillar, sino de cómo lo haces. Usa un cepillo de cerdas suaves con movimientos circulares suaves durante al menos 2 minutos. Presta especial atención a la línea de las encías, donde se acumula la mayor cantidad de placa.',
